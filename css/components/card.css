@@ -1,0 +1,81 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+
+#cardgreekgoddess {
+  background-image: url(../../images/greekgoddess.png);
+  background-size: cover;
+
+
+}
+
+
+.btn:hover {opacity: 0.6}
+
+#greekbutton {
+  background-color: rgb(172, 161, 157);
+  opacity: 90%;
+  padding: 15px 20px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Port Lligat Sans', sans-serif;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#greekbutton:hover {opacity: 0.6}
+
+#cardegyptiangoddess {
+  background-image: url(../../images/egyptiangoddess.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#egyptianbutton {
+  background-color: rgb(198, 161, 130);
+  padding: 15px 20px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Port Lligat Sans', sans-serif;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#egyptianbutton:hover {opacity: 0.6}
+
+.card {
+	
+    padding: 200px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    background-color: none;
+
+}
+
+
+
+.card h3 {
+	 font-size: 24px;
+}
+
+
+.row {margin: 0 -20px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

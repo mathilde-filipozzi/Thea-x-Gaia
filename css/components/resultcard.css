@@ -1,0 +1,36 @@
+.resultcard {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 100px;
+	justify-content: space-between;
+	margin-top: 1px;
+
+
+}
+
+.resultcard img {
+	width: 248px;
+    height: 168px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    margin: 40px;
+    padding: 2px;
+    background: rgb(197, 191, 186);
+    margin-bottom: auto;
+}
+
+#egyptresultcard img{
+	background: rgb(192, 157, 123);
+}
+
+/* name of Egypt bracelets*/
+.braceletname {
+  text-align: center;
+}
+
+/* name of Greek rings*/
+.ringname {
+  text-align: center;
+}
+
+

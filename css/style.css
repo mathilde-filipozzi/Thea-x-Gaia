@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap);
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/imagepage1.css");
+@import url("components/card.css");
+@import url("components/topfooter.css");
+@import url("components/bottomfooter.css");
+@import url("components/listcard.css");
+@import url("components/resultcard.css");
+@import url("components/productcard.css");
+@import url("components/checkoutcard.css");
+@import url("components/logincard.css");
+@import url("components/orderconfirmationcard.css");
+
+
+
+
+
+body{
+	font-family: 'Port Lligat Sans', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+  background-color: white;
+}
+
+
+h1, h2, h3{
+	font-family: 'Port Lligat Sans', sans-serif;
+	font-weight: bold;
+  color: rgb(35, 31, 27);
+}
+
+h2 {
+  background-color: rgb(233, 226, 209);
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+/* Best seller */
+
+.BESTSELLER{
+	margin: 50px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bestseller > .column {
+  padding: 0 8px;
+}
+
+.bestseller:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+  width: 250px;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Egyptian Jewelry */
+
+#EGYPTIANJEWELRY {
+  margin: 50px;
+  text-align: center;
+  background-color: rgb(192, 157, 123);
+  color: white;
+  padding: 10px;
+}
+
+/* Greek Jewelry */
+
+#GREEKJEWELRY {
+  margin: 50px;
+  text-align: center;
+  background-color: rgb(197, 191, 186);
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .bestseller {
+    float: none;
+  }
+
+
+
+
