@@ -12,7 +12,6 @@
 .resultcard img {
 	width: 248px;
     height: 168px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     margin: 40px;
     padding: 2px;
     background: rgb(197, 191, 186);

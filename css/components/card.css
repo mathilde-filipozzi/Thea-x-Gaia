@@ -55,8 +55,6 @@
     padding: 200px;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-    border-radius: 6px;
     margin: 10px;
     flex-basis: 500px;
     flex-grow: 1;

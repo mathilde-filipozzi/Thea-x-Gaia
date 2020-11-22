@@ -19,9 +19,10 @@
 
  <div class="row">	
  <div class="icon-bar">
-  <a href="#"><i id="egypticonbar" class="fa fa-heart"></i></a>
+  <a href="#"><i id="egypticonbar" class="fa fa-user"></i></a> 
   <a href="#"><i id="egypticonbar" class="fa fa-shopping-bag"></i></a> 
-  <a href="#"><i id="egypticonbar"class="fa fa-user"></i></a> 
+  <a href="#"><i id="egypticonbar" class="fa fa-heart"></i></a>
+  <a href="index.html"><i id="egypticonbar" class="fa fa-home"></i></a>
 
   <div class="topnav">
 <div class="search-container">
@@ -49,22 +50,22 @@
           <div class="col-50">
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user-circle"></i> Full Name</label>
-            <input type="teext" id="fname" name="firstname" placeholder="John M. Doe">
+            <input type="teext" id="fname" name="firstname" placeholder="Jeremy Martinson">
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="teext" id="email" name="email" placeholder="john@example.com">
+            <input type="teext" id="email" name="email" placeholder="jeremy@example.com">
             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-            <input type="teext" id="adr" name="address" placeholder="542 W. 15th Street">
+            <input type="teext" id="adr" name="address" placeholder="455 Larkspur Dr.">
             <label for="city"><i class="fa fa-institution"></i> City</label>
-            <input type="teext" id="city" name="city" placeholder="New York">
+            <input type="teext" id="city" name="city" placeholder="California Springs">
 
             <div class="roow">
               <div class="col-50">
                 <label for="state">State</label>
-                <input type="teext" id="state" name="state" placeholder="NY">
+                <input type="teext" id="state" name="state" placeholder="CA">
               </div>
               <div class="col-50">
                 <label for="zip">Zip</label>
-                <input type="teext" id="zip" name="zip" placeholder="10001">
+                <input type="teext" id="zip" name="zip" placeholder="92926">
               </div>
             </div>
           </div>
@@ -79,7 +80,7 @@
               <i class="fa fa-cc-discover"></i>
             </div>
             <label for="cname">Name on Card</label>
-            <input type="teext" id="cname" name="cardname" placeholder="John More Doe">
+            <input type="teext" id="cname" name="cardname" placeholder="Jeremy Martinson">
             <label for="ccnum">Credit card number</label>
             <input type="teext" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
             <label for="expmonth">Exp Month</label>
@@ -87,7 +88,7 @@
             <div class="roow">
               <div class="col-50">
                 <label for="expyear">Exp Year</label>
-                <input type="teext" id="expyear" name="expyear" placeholder="2018">
+                <input type="teext" id="expyear" name="expyear" placeholder="2021">
               </div>
               <div class="col-50">
                 <label for="cvv">CVV</label>
@@ -100,15 +101,15 @@
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
-        <input type="button" value="Continue to checkout" class="checkoutbtn" onclick="window.location.href = 'login.html';" >
+        <input type="button" value="Confirm order" class="checkoutbtn" onclick="window.location.href = 'login.html';" >
       </form>
     </div>
   </div>
   <div class="col-25">
     <div class="checkoutcard">
       <h4>Cart</h4>
-      <p><a id="product" href="#">Athena Ring</a> <span class="price">39.99€</span></p>
-      <p><a id="delivery" href="#">Delivery</a> <span class="price">4€</span></p>
+      <p><a id="product" href="#">Athena Ring</a> <span class="price">34€</span></p>
+      <p><a id="delivery" href="#">Express Delivery</a> <span class="price">9.99€</span></p>
       <hr>
       <p>Total <span class="price"><b>43,99€</b></span></p>
     </div>
@@ -118,12 +119,11 @@
 
 
 <div id="greekfooter" class="bottomfooter">
-	<a href="#" class="btn-contactus">Contact us</a>
+	<a href="#" id="grbutton" class="btn-contactus">Contact us</a>
 
 <div class="socialmedia">
-	<a href="#" id="egypticonbar" class="fa fa-facebook fa-mod"></a>
-	<a href="#" id="egypticonbar" class="fa fa-twitter fa-mod"></a>
-	<a href="#" id="egypticonbar" class="fa fa-instagram fa-mod"></a>
+  <a href="#" id="egypticonbar" class="fa fa-instagram fa-mod"></a>
+  <a href="#" id="egypticonbar" class="fa fa-facebook fa-mod"></a>
 </div>
 
 </div>
